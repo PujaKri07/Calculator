@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="Calculator-Body">
+        <input type="text" id="Input-Display" readonly>
+
+        <div class="button-area">
+        <!-- <button class="button" id="button_c" onclick="CurrentDisplay = '';
+        document.querySelector('#Input-Display').value = CurrentDisplay;" >c</button> -->
+
+        <button class="button" id="button_c" onclick="ClearButton('');">c</button>
+        <button class="button" id="button_+" onclick="pressButton('+')">+</button>
+        <button class="button" id="button_-" onclick="pressButton('-')">-</button>
+
+        <button class="button" id="button_*" onclick="pressButton('*');">*</button>
+        <button class="button" id="button_/" onclick="pressButton('/')">/</button>
+        
+        
+        <button class="button" id="button_9" onclick="pressButton('9')">9</button>
+        <button class="button" id="button_8" onclick="pressButton('8')">8</button>
+        <button class="button" id="button_7" onclick="pressButton('7')">7</button>
+
+        <button class="button" id="button_6" onclick="pressButton('6')">6</button>
+        <button class="button" id="button_5" onclick="pressButton('5')">5</button>
+        <button class="button" id="button_4" onclick="pressButton('4')">4</button>
+
+        <button class="button" id="button_3" onclick="pressButton('3')">3</button>
+        <button class="button" id="button_2" onclick="pressButton('2')">2</button>
+        <button class="button" id="button_1" onclick="pressButton('1')">1</button>
+
+        <button class="button" id="button_0" onclick="pressButton('0')">0</button>
+        <button class="button" id="button_." onclick="pressButton('.')">.</button>
+        <!-- <button class="button" id="button_=" onclick="CurrentDisplay = eval(CurrentDisplay);
+        document.querySelector('#Input-Display').value = CurrentDisplay;">=</button> -->
+        <button class="button" id="button_=" onclick="EvaluateButton()">=</button>
+
+        </div>
+    </div>
+    
+    <script src="calculator.js">
+
+    </script>
+</body>
+</html>
