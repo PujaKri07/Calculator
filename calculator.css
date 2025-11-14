@@ -1,0 +1,35 @@
+.Calculator-Body {
+    border: 2px solid rgb(151, 148, 148);
+    border-radius: 5px;
+    width: 360px;
+}
+
+#Input-Display {
+    width: 83%;
+    margin: 20px;
+    font-size: 35px;
+    padding: 2px 8px;
+}
+
+.button-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button {
+    padding: 3px;
+    width: 55px;
+    height: 55px;
+    margin: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
